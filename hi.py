@@ -1,4 +1,5 @@
-print("Hi! Nice to meet you!")
+import sys
+sys.setrecursionlimit(3000)
 
 def tryCode(n, memo={}):
   if n < 3: return 1
@@ -9,4 +10,4 @@ def tryCode(n, memo={}):
   
   return memo[n]
 
-print(trytCode(10))
+print(tryCode(2999))
