@@ -10,4 +10,6 @@ def tryCode(n, memo={}):
   
   return memo[n]
 
+# sys.stdout.write(tryCode(2999))
+
 print(tryCode(2999))
